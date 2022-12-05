@@ -1,0 +1,190 @@
+,Variable,Variable Label
+0,year,year
+1,cocnumber,continuum of care number
+14,econ_urb_urbanicity,urbanicity category
+15,coctag,tag(cocnumber)
+16,panelvar,CoC number used to set panel
+22,hou_pol_fedfundcoc,CoC federal funding - HUD
+32,dem_pop_pop_census,"total population, intercensal estimate"
+33,dem_pop_male_census,"total male population, intercensal estimate"
+34,dem_pop_female_census,"total female population, intercensal estimate"
+35,dem_pop_child_census,"total population ages 0-19, intercensal estimate"
+36,dem_pop_adult_census,"total population ages 20-64, intercensal estimate"
+37,dem_pop_senior_census,"total population ages 65 or older, intercensal estimate"
+38,dem_soc_white_census,"total white alone (non-hispanic) population, intercensal estimate"
+39,dem_soc_black_census,"total black alone (non-hispanic) population, intercensal estimate"
+40,dem_soc_native_census,"total native alone (non-hispanic) population, intercensal estimate"
+41,dem_soc_asian_census,"total asian alone (non-hispanic) population, intercensal estimate"
+42,dem_soc_pacific_census,"total pacific islander alone (non-hispanic) population, intercensal estimate"
+43,dem_soc_racetwo_census,"total population of two or more races (non-hispanic), intercensal estimate"
+44,dem_soc_hispanic_census,"total latino/hispanic (all races) population, intercensal estimate"
+75,fhfa_hpi_flag,flag indicating that counties in the CoC had missing variables for housing price
+76,fhfa_hpi_2009,"2009 base year house price index (HPI), from FHFA"
+77,econ_labor_force_pop_BLS,total population in the labor force
+78,econ_labor_emp_pop_BLS,total employed population
+79,econ_labor_unemp_pop_BLS,total unemployed population
+80,econ_labor_unemp_rate_BLS,"unemployment rate, from BLS LAUS"
+81,hou_mkt_area_census,area in square miles - land area
+82,dem_pop_density_census,total population estimate divided by square miles
+83,hou_mkt_density_census,housing units estimate divided by square miles
+84,dem_pop_mig_census,"net migration from year-1 to year, intercensal estimate"
+85,hou_pol_hudunit_psh_hud,number of HUD-assisted units
+86,hou_pol_occhudunit_psh_hud,HUD unit occupancy rate
+90,hou_mkt_units_census,"total number of housing units, intercensal estimate"
+91,hou_mkt_pmt_totbldg_census,total permitted buildings
+92,hou_mkt_pmt_totunit_census,total permitted units
+93,hou_mkt_pmt_totvalue_census,total value of permitted buildings
+94,econ_labor_pov_pop_census,"count of all ages in poverty, from SAIPE"
+95,econ_labor_medinc_census,"median household income, from SAIPE"
+96,econ_sn_ssdi_SSA,total number of disabled workers receiving benefits
+97,econ_sn_ssdi_part_rate_SSA,SSDI participation rate (ssdi participants/census population)
+98,econ_sn_ssi_part_SSA,total number of SSI recipients
+99,econ_sn_ssi_pay_SSA,amount of payments in thousands of dollars
+100,econ_sn_ssi_part_rate_SSA,SSI participation rate (ssi participants/census population)
+101,hou_mkt_evict_count,"number of addresses with an eviction judgment, from eviction lab"
+102,hou_mkt_evict_file_count,"eviction cases filed, including multiple against same address, from eviction lab"
+103,hou_mkt_renter_count_evlab,"count of renter-occupied households, eviction lab estimate from census and ESRI"
+104,hou_mkt_evict_flag,"flag for eviction estimates lower than the actual number, from eviction lab"
+105,hou_mkt_evict_file_rate,"share of renter-occupied households with an eviction filed, from eviction lab"
+106,hou_mkt_evict_rate,"share of renter-occupied households with an eviction, from eviction lab"
+114,dem_health_cost_dart,"total medicare reimbursements per enrollee (parts a&b), dartmouth"
+115,hou_pol_hlessconduct_food,count of food sharing laws
+116,hou_pol_hlessconduct_total,total count of prohibited conduct laws
+117,hou_pol_hlessconduct_sleep,"count of sleeping, camping, lying/sitting, and vehicle restriction laws"
+118,hou_pol_hlessconduct_loiter,count of loitering and vagrancy laws
+119,hou_pol_hlessconduct_beg,count of begging laws
+121,env_wea_precip_annual_noaa,total annual precipitation
+122,cpi_2017,consumer price index
+123,env_wea_avgtemp_noaa,average January temperature
+124,env_wea_precip_noaa,total January precipitation
+125,state_abr,state abbreviation
+126,pit_miss,sum of all PIT count values
+127,odd_flag,odd year of data indicator
+128,pit_hless_balance,number of non-missing total homeless values across all years
+129,pit_shelt_balance,number of non-missing sheltered homeless values across all years
+130,pit_unshelt_balance,number of non-missing unsheltered homeless values across all years
+131,unbalance_flag,flag for CoCs with less than 5 years of non-missing PIT data
+134,pit_hless_pit_hud_share,"rate of total homeless per 10,000 people"
+135,missing,"number of missing homeless, sheltered, and unsheltered values"
+136,dem_pop_adult_census_share,adult population (ages 20-64) to total population
+137,dem_pop_child_census_share,child population (ages 0-19) to total population
+138,dem_pop_female_census_share,female population to total population
+139,dem_pop_male_census_share,male population to total population
+140,dem_pop_mig_census_share,yearly increase in population to total population
+141,dem_pop_senior_census_share,senior population (ages 65 and older) to total population
+142,dem_age_boom_census_2011,2010 share of baby boomers to total population
+143,dem_soc_asian_census_share,asian (non-hispanic) population to total population
+144,dem_soc_black_census_share,black (non-hispanic) population to total population
+145,dem_soc_hispanic_census_share,hispanic/latino population (all races) to total population
+146,dem_soc_native_census_share,native (non-hispanic) population to total population
+147,dem_soc_pacific_census_share,pacific islander (non-hispanic) population to total population
+148,dem_soc_racetwo_census_share,two or more races to total population
+149,dem_soc_white_census_share,white (non-hispanic) population to total population
+150,dem_soc_other_census_share,"sum of native, pacific islander, and two or more race shares"
+152,dem_health_mhlth_chr_share_2017,2016 share of mental health care providers to total population
+153,dem_health_excesdrink_chr_2017,2016 share of excess drinkers
+154,dem_health_alcdeath_IMHE_2015,2014 alcohol morality rate
+155,dem_mort_lifeexp_IMHE_2015,"2014 life expectancy, from IMHE"
+157,dem_health_ins_acs5yr_2017,2016 share of the population with health insurance
+158,dem_soc_ed_bach_acs5yr_2012,2011 share of the population with bachelors or higher
+159,dem_soc_ed_bach_acs5yr_2017,2016 share of the population with bachelors or higher
+160,dem_soc_ed_bach_acs5yr_diff,change in dem_soc_ed_bach_acs5yr values (2016 and 2011)
+161,dem_soc_ed_somecoll_acs5yr_2012,2011 share of the population with some college
+162,dem_soc_ed_somecoll_acs5yr_2017,2016 share of the population with some college
+163,dem_soc_ed_hsgrad_acs5yr_2012,2011 high school graduate share of the population
+164,dem_soc_ed_hsgrad_acs5yr_2017,2016 high school graduate share of the population
+165,dem_soc_ed_lesshs_acs5yr_2012,2011 share of the population without high school diploma
+166,dem_soc_ed_lesshs_acs5yr_2017,2016 share of the population without high school diploma
+167,dem_soc_ed_lesshs_acs5yr_diff,change in dem_soc_ed_lesshs_acs5yr values (2016 and 2011)
+168,dem_soc_singparent_acs5yr_2012,2011 percentage of children living with a single parent
+169,dem_soc_singparent_acs5yr_2017,2016 percentage of children living with a single parent
+170,dem_soc_singparent_acs5yr_diff,change in dem_soc_singparent_acs5yr values (2016 and 2011)
+171,dem_soc_singadult_acs5yr_2012,2011 percentage of children living with a single parent
+172,dem_soc_singadult_acs5yr_2017,2016 percentage of children living with a single parent
+173,dem_soc_singadult_acs5yr_diff,change in dem_soc_singadult_acs5yr values (2016 and 2011)
+174,dem_soc_vet_acs5yr_2012,2011 percentage of veterans
+175,dem_soc_vet_acs5yr_2017,2016 percentage of veterans
+176,dem_soc_vet_acs5yr_diff,change in dem_soc_vet_acs5yr values (2016 and 2011)
+177,econ_labor_incineq_acs5yr_2012,2011 gini coefficient
+178,econ_labor_incineq_acs5yr_2017,2016 gini coefficient
+179,econ_labor_incineq_acs5yr_diff,change in econ_labor_incineq_acs5yr values (2016 and 2011)
+180,econ_labor_topskill_acs5yr_2012,2011 employment rate for high-skilled workers
+181,econ_labor_topskill_acs5yr_2017,2016 employment rate for high-skilled workers
+182,econ_labor_topskill_acs5yr_diff,change in econ_labor_topskilled_acs5yr values (2016 and 2011)
+183,econ_labor_midskill_acs5yr_2012,2011 employment rate for middle-skilled workers
+184,econ_labor_midskill_acs5yr_2017,2016 employment rate for middle-skilled workers
+185,econ_labor_midskill_acs5yr_diff,change in econ_labor_midskilled_acs5yr values (2016 and 2011)
+186,econ_labor_unskill_acs5yr_2012,2011 employment rate for low-skilled workers
+187,econ_labor_unskill_acs5yr_2017,2016 employment rate for low-skilled workers
+188,econ_labor_unskill_acs5yr_diff,change in econ_labor_unskilled_acs5yr values (2016 and 2011)
+189,econ_labor_medinc_acs5yr_2012,2011 median income
+190,econ_labor_medinc_acs5yr_2017,2016 median income
+191,econ_labor_pov_pop_census_share,"poverty rate, number of persons in poverty to total population"
+192,econ_sn_cashasst_acs5yr_2012,2011 share of households with public assistance income
+193,econ_sn_cashasst_acs5yr_2017,2016 share of households with public assistance income
+194,econ_sn_cashasst_acs5yr_diff,change in econ_sn_cashasst_acs5yr values (2016 and 2011)
+195,hou_mkt_rentshare_acs5yr_2012,2011 share of renters
+196,hou_mkt_rentshare_acs5yr_2017,2016 share of renters
+197,hou_mkt_rentshare_acs5yr_diff,change in hou_mkt_rentshare_acs5yr values (2016 and 2011)
+198,hou_mkt_rentvacancy_acs5yr_2012,2011 rental vacancy rate
+199,hou_mkt_rentvacancy_acs5yr_2017,2016 rental vacancy rate
+200,hou_mkt_rentvacancy_acs5yr_diff,change in hou_mkt_rentvacancy_acs5yr values (2016 and 2011)
+201,hou_mkt_ovrcrowd_acs5yr_2012,2011 share of overcrowded housing units
+202,hou_mkt_ovrcrowd_acs5yr_2017,2016 share of overcrowded housing units
+203,hou_mkt_ovrcrowd_acs5yr_diff,change in hou_mkt_ovrcrowd_acs5yr values (2016 and 2011)
+204,hou_mkt_homeage_acs5yr_2012,2011 median housing unit age
+205,hou_mkt_homeage_acs5yr_2017,2016 median housing unit age
+206,hou_mkt_homeage_acs5yr_diff,change in hou_mkt_homeage_acs5yr values (2016 and 2011)
+207,hou_mkt_homeage1940_acs5yr_2012,2011 percentage of housing units built before 1940
+208,hou_mkt_homeage1940_acs5yr_2017,2016 percentage of housing units built before 1940
+209,hou_mkt_homeage1940_acs5yr_diff,change in hou_mkt_homeage1940_acs5yr values (2016 and 2011)
+210,hou_mkt_homeval_acs5yr_2012,2011 median home value
+211,hou_mkt_homeval_acs5yr_2017,2016 median home value
+212,hou_mkt_homeval_acs5yr_diff,change in hou_mkt_homeval_acs5yr values (2016 and 2011)
+213,hou_mkt_medrent_acs5yr_2012,2011 median rent
+214,hou_mkt_medrent_acs5yr_2017,2016 median rent
+215,hou_mkt_medrent_acs5yr_diff,change in hou_mkt_medrent_acs5yr values (2016 and 2011)
+216,hou_mkt_utility_acs5yr_2012,2011 utility costs
+217,hou_mkt_utility_acs5yr_2017,2016 utility costs
+218,hou_mkt_utility_acs5yr_diff,change in hou_mkt_utility_acs5yr values (2016 and 2011)
+219,hou_mkt_burden_own_acs5yr_2012,2011 percentage of home owners with cost burden
+220,hou_mkt_burden_own_acs5yr_2017,2016 percentage of home owners with cost burden
+221,hou_mkt_burden_own_acs5yr_diff,change in hou_mkt_burden_own_acs5yr values (2016 and 2011)
+222,hou_mkt_burden_sev_own_acs_2012,2011 percentage of home owners with severe cost burden
+223,hou_mkt_burden_sev_own_acs_2017,2016 percentage of home owners with severe cost burden
+224,hou_mkt_burden_sev_own_acs_diff,change in hou_mkt_burden_sev_own_acs5yr values (2016 and 2011)
+225,hou_mkt_burden_rent_acs5yr_2012,2011 percentage of renters with cost burden
+226,hou_mkt_burden_rent_acs5yr_2017,2016 percentage of renters with cost burden
+227,hou_mkt_burden_rent_acs5yr_diff,change in hou_mkt_burden_rent_acs5yr values (2016 and 2011)
+228,hou_mkt_burden_sev_rent_acs_2012,2011 percentage of renters with severe cost burden
+229,hou_mkt_burden_sev_rent_acs_2017,2016 percentage of renters with severe cost burden
+230,hou_mkt_burden_sev_rent_acs_diff,change in hou_mkt_burden_sev_rent_acs5yr values (2016 and 2011)
+231,hou_pol_hudunit_psh_hud_share,share of HUD-subsidized housing units to total housing units
+232,hou_mkt_pmt_unit_census_share,share of new housing permits to total housing units
+233,urban_cat,urbanicity category
+234,state,"numerical state ID, based on state_abr"
+235,evict_file_flag,flag for missing eviction filing rate value
+236,evict_flag,flag for missing eviction rate value
+237,fedfundcoc_flag,flag for missing funding value
+238,hou_mkt_density_dummy,indicator for high housing density CoC (>= 75th percentile)
+264,ln_econ_labor_medinc_census,log of median income
+265,flag_d_hless,flag for missing total homeless share value in 2017 or 2013
+266,flag_xt_hless,flag for missing total homeless share value in an odd year
+267,flag_d_shelt,flag for missing sheltered homeless share in 2017 or 2013
+268,flag_xt_shelt,flag for missing sheltered homeless share value in an odd year
+269,flag_d_unshelt,flag for missing unsheltered homeless share in 2017 or 2013
+270,flag_xt_unshelt,flag for missing unsheltered homeless share vale in an odd year
+318,census_region,census region
+319,census_division,census region
+320,sub_west_coast,"indicator for west cost CoC (CA, OR, or WA)"
+321,sub_low_rent_vacancy,indicator for CoCs with rental vacancy rates <= 5 percent
+322,sub_high_cost_rent75,indicator for CoCs with median rents >= 75th percentile
+323,sub_high_cost_homeval75,indicator for CoCs with median home value >= 75th percentile
+324,sub_high_rent_share75,indicator for CoCs with share of renters >= 75th percentile
+325,tight_high_cost_rental_mkt,sum of the four tight market criteria indicators
+326,sub_tight_high_cost_rent,"indicator for tight, high cost rental market CoCs"
+327,sub_west_coast_all_urb,indicator for suburban or major city/largely urban CoCs in the west region
+328,sub_west_census,indicator for west region CoCs
+329,major_city,indicator for major city or largely urban CoC
+330,suburban,indicator for largely suburban CoC
+331,rural,indicator for largely rural CoC

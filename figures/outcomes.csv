@@ -1,0 +1,43 @@
+,Associated Domain,Variable,Variable Label,Derived,Source or Root Variable,Table Name(s)
+2,Outcome,pit_tot_shelt_pit_hud,total sheltered - HUD PIT,No,HUD PIT,
+3,Outcome,pit_tot_unshelt_pit_hud,total unsheltered - HUD PIT,No,HUD PIT,
+4,Outcome,pit_tot_hless_pit_hud,total homeless - HUD PIT,No,HUD PIT,
+5,Secondary Outcome,pit_ind_shelt_pit_hud,individuals sheltered - HUD PIT,No,HUD PIT,
+6,Secondary Outcome,pit_ind_unshelt_pit_hud,individuals unsheltered - HUD PIT,No,HUD PIT,
+7,Secondary Outcome,pit_ind_hless_pit_hud,total individuals - HUD PIT,No,HUD PIT,
+8,Secondary Outcome,pit_perfam_shelt_pit_hud,persons in families sheltered - HUD PIT,No,HUD PIT,
+9,Secondary Outcome,pit_perfam_unshelt_pit_hud,persons in Families unsheltered - HUD PIT,No,HUD PIT,
+10,Secondary Outcome,pit_perfam_hless_pit_hud,total persons in families - HUD PIT,No,HUD PIT,
+11,Secondary Outcome,pit_ind_chronic_hless_pit_hud,total chronically homeless individuals - HUD PIT,No,HUD PIT,
+12,Secondary Outcome,pit_perfam_chronic_hless_pit_hud,total chronically homeless persons in families - HUD PIT,No,HUD PIT,
+13,Secondary Outcome,pit_vet_hless_pit_hud,total veterans - HUD PIT,No,HUD PIT,
+17,Secondary Outcome,hou_pol_totalind_hud,"length of time homeless; ES, SH, and TH universe",No,HUD System Performance Measures,
+18,Secondary Outcome,hou_pol_totalday_hud,"length of time homeless; ES, SH, and TH total days",No,HUD System Performance Measures,
+19,Secondary Outcome,hou_pol_totalexit_hud,total exits: universe,No,HUD System Performance Measures,
+20,Secondary Outcome,hou_pol_numret6mos_hud,total exits:  return in less than 6 months,No,HUD System Performance Measures,
+21,Secondary Outcome,hou_pol_numret12mos_hud,total exits:  return in less than 12 months,No,HUD System Performance Measures,
+126,Outcome,pit_miss,sum of all PIT count values,No,HUD PIT,
+127,Outcome,odd_flag,odd year of data indicator,No,,
+128,Outcome,pit_hless_balance,number of non-missing total homeless values across all years,No,HUD PIT,
+129,Outcome,pit_shelt_balance,number of non-missing sheltered homeless values across all years,No,HUD PIT,
+130,Outcome,pit_unshelt_balance,number of non-missing unsheltered homeless values across all years,No,HUD PIT,
+131,Outcome,unbalance_flag,flag for CoCs with less than 5 years of non-missing PIT data,No,,
+132,Outcome,pit_shelt_pit_hud_share,"rate of sheltered homeless per 10,000 people",Yes,"HUD PIT
+Census Intercensal Population Estimates","""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+133,Outcome,pit_unshelt_pit_hud_share,"rate of unsheltered homeless per 10,000 people",Yes,"HUD PIT
+Census Intercensal Population Estimates","""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+134,Outcome,pit_hless_pit_hud_share,"rate of total homeless per 10,000 people",Yes,"HUD PIT
+Census Intercensal Population Estimates","""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2000 to July 1, 2010""
+""Annual County Resident Population Estimates by Age, Sex, Race, and Hispanic Origin: April 1, 2010 to July 1, 2017"""
+135,Outcome,missing,"number of missing homeless, sheltered, and unsheltered values",No,,
+265,Outcome,flag_d_hless,flag for missing total homeless share value in 2017 or 2013,No,,
+266,Outcome,flag_xt_hless,flag for missing total homeless share value in an odd year,No,,
+267,Outcome,flag_d_shelt,flag for missing sheltered homeless share in 2017 or 2013,No,,
+268,Outcome,flag_xt_shelt,flag for missing sheltered homeless share value in an odd year,No,,
+269,Outcome,flag_d_unshelt,flag for missing unsheltered homeless share in 2017 or 2013,No,,
+270,Outcome,flag_xt_unshelt,flag for missing unsheltered homeless share vale in an odd year,No,,
+271,Outcome,d_pit_hless_pit_hud_share,4-year change in pit_hless_pit_hud_share values (2017 and 2013),Yes,See pit_hless_pit_hud_share,
+272,Outcome,d_pit_shelt_pit_hud_share,4-year change in pit_shelt_pit_hud_share values (2017 and 2013),Yes,See pit_shelt_pit_hud_share,
+273,Outcome,d_pit_unshelt_pit_hud_share,4-year change in pit_unshelt_pit_hud_share values (2017 and 2013),Yes,See pit_unshelt_pit_hud_share,
