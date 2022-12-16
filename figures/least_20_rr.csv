@@ -1,0 +1,22 @@
+,0,1
+0,econ_labor_unemp_pop_BLS,total unemployed population
+1,dem_health_mhlth_chr_share_2017,2016 share of mental health care providers to total population
+2,hou_mkt_density_census,housing units estimate divided by square miles
+3,fhfa_hpi_2009,"2009 base year house price index (HPI), from FHFA"
+4,evict_flag,flag for missing eviction rate value
+5,sub_tight_high_cost_rent,"indicator for tight, high cost rental market CoCs"
+6,dem_soc_singadult_acs5yr_2012,2011 percentage of children living with a single parent
+7,hou_pol_hlessconduct_total,total count of prohibited conduct laws
+8,dem_pop_mig_census,"net migration from year-1 to year, intercensal estimate"
+9,econ_sn_cashasst_acs5yr_diff,change in econ_sn_cashasst_acs5yr values (2016 and 2011)
+10,sub_low_rent_vacancy,indicator for CoCs with rental vacancy rates <= 5 percent
+11,hou_mkt_ovrcrowd_acs5yr_diff,change in hou_mkt_ovrcrowd_acs5yr values (2016 and 2011)
+12,env_wea_precip_noaa,total January precipitation
+13,dem_pop_mig_census_share,yearly increase in population to total population
+14,dem_soc_ed_bach_acs5yr_2012,2011 share of the population with bachelors or higher
+15,hou_mkt_density_dummy,indicator for high housing density CoC (>= 75th percentile)
+16,hou_mkt_rentvacancy_acs5yr_2012,2011 rental vacancy rate
+17,fhfa_hpi_flag,flag indicating that counties in the CoC had missing variables for housing price
+18,hou_mkt_rentvacancy_acs5yr_2017,2016 rental vacancy rate
+19,econ_labor_incineq_acs5yr_diff,change in econ_labor_incineq_acs5yr values (2016 and 2011)
+20,econ_labor_unskill_acs5yr_diff,change in econ_labor_unskilled_acs5yr values (2016 and 2011)

@@ -1,0 +1,21 @@
+,0,1
+0,dem_pop_male_census,"total male population, intercensal estimate"
+1,dem_pop_female_census,"total female population, intercensal estimate"
+2,dem_soc_white_census,"total white alone (non-hispanic) population, intercensal estimate"
+3,dem_pop_adult_census,"total population ages 20-64, intercensal estimate"
+4,econ_labor_force_pop_BLS,total population in the labor force
+5,econ_labor_emp_pop_BLS,total employed population
+6,hou_mkt_homeage1940_acs5yr_2017,2016 percentage of housing units built before 1940
+7,hou_mkt_units_census,"total number of housing units, intercensal estimate"
+8,dem_pop_pop_census,"total population, intercensal estimate"
+9,dem_soc_hispanic_census,"total latino/hispanic (all races) population, intercensal estimate"
+10,hou_mkt_homeval_acs5yr_2012,2011 median home value
+11,hou_mkt_homeage1940_acs5yr_2012,2011 percentage of housing units built before 1940
+12,dem_soc_black_census,"total black alone (non-hispanic) population, intercensal estimate"
+13,econ_labor_medinc_acs5yr_2012,2011 median income
+14,hou_mkt_homeage_acs5yr_2012,2011 median housing unit age
+15,hou_mkt_medrent_acs5yr_2017,2016 median rent
+16,dem_pop_child_census,"total population ages 0-19, intercensal estimate"
+17,econ_sn_ssdi_SSA,total number of disabled workers receiving benefits
+18,dem_mort_lifeexp_IMHE_2015,"2014 life expectancy, from IMHE"
+19,hou_mkt_renter_count_evlab,"count of renter-occupied households, eviction lab estimate from census and ESRI"

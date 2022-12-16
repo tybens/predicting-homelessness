@@ -1,0 +1,21 @@
+,0,1,2
+0,2016 median home value,hou_mkt_homeval_acs5yr_2017,0.11504190443214593
+1,2011 share of renters,hou_mkt_rentshare_acs5yr_2012,0.09978071354108661
+2,2011 percentage of home owners with severe cost burden,hou_mkt_burden_sev_own_acs_2012,0.04656558809900341
+3,"poverty rate, number of persons in poverty to total population",econ_labor_pov_pop_census_share,0.04651583338884719
+4,2016 share of households with public assistance income,econ_sn_cashasst_acs5yr_2017,0.0447520093355584
+5,urbanicity category,urban_cat,0.03831280931302003
+6,"total black alone (non-hispanic) population, intercensal estimate",dem_soc_black_census,0.036375643926782324
+7,2011 median income,econ_labor_medinc_acs5yr_2012,0.03286286094497423
+8,census region,census_division,0.03234483991071376
+9,total unemployed population,econ_labor_unemp_pop_BLS,0.03144059318819218
+10,2011 median home value,hou_mkt_homeval_acs5yr_2012,0.031119398475580564
+11,SSDI participation rate (ssdi participants/census population),econ_sn_ssdi_part_rate_SSA,0.02850481871506876
+12,female population to total population,dem_pop_female_census_share,0.028035356210603515
+13,change in hou_mkt_burden_sev_own_acs5yr values (2016 and 2011),hou_mkt_burden_sev_own_acs_diff,0.027526591063579665
+14,2011 median rent,hou_mkt_medrent_acs5yr_2012,0.02716848864205815
+15,2016 share of overcrowded housing units,hou_mkt_ovrcrowd_acs5yr_2017,0.024470644749295164
+16,urbanicity category,econ_urb_urbanicity,0.02014957312846389
+17,change in hou_mkt_burden_sev_rent_acs5yr values (2016 and 2011),hou_mkt_burden_sev_rent_acs_diff,0.01946119663204311
+18,2011 gini coefficient,econ_labor_incineq_acs5yr_2012,0.019054070582200894
+19,"indicator for tight, high cost rental market CoCs",sub_tight_high_cost_rent,0.01713709775042252

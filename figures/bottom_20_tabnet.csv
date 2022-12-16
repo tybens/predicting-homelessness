@@ -1,0 +1,21 @@
+,0,1,2
+0,CoC federal funding - HUD,hou_pol_fedfundcoc,0.0
+1,"total population, intercensal estimate",dem_pop_pop_census,0.0
+2,"total female population, intercensal estimate",dem_pop_female_census,0.0
+3,"total population ages 0-19, intercensal estimate",dem_pop_child_census,0.0
+4,"total population ages 20-64, intercensal estimate",dem_pop_adult_census,0.0
+5,"total white alone (non-hispanic) population, intercensal estimate",dem_soc_white_census,0.0
+6,"total native alone (non-hispanic) population, intercensal estimate",dem_soc_native_census,0.0
+7,"total asian alone (non-hispanic) population, intercensal estimate",dem_soc_asian_census,0.0
+8,"total pacific islander alone (non-hispanic) population, intercensal estimate",dem_soc_pacific_census,0.0
+9,flag indicating that counties in the CoC had missing variables for housing price,fhfa_hpi_flag,0.0
+10,"2009 base year house price index (HPI), from FHFA",fhfa_hpi_2009,0.0
+11,total population in the labor force,econ_labor_force_pop_BLS,0.0
+12,total employed population,econ_labor_emp_pop_BLS,0.0
+13,"unemployment rate, from BLS LAUS",econ_labor_unemp_rate_BLS,0.0
+14,area in square miles - land area,hou_mkt_area_census,0.0
+15,total population estimate divided by square miles,dem_pop_density_census,0.0
+16,"net migration from year-1 to year, intercensal estimate",dem_pop_mig_census,0.0
+17,number of HUD-assisted units,hou_pol_hudunit_psh_hud,0.0
+18,HUD unit occupancy rate,hou_pol_occhudunit_psh_hud,0.0
+19,"total number of housing units, intercensal estimate",hou_mkt_units_census,0.0
