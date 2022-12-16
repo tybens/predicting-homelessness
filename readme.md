@@ -31,7 +31,7 @@ The most relevant files to this project are:
 # Sneak Peak
 <!-- Add a demo for your project -->
 
-Inspecting the notebook `predicting_homelessness.ipynb` is the best way to inspecting this project; however, below are a few sneak-peaks into the figures output.
+Inspecting the notebook `predicting_homelessness.ipynb` is the best way to exploring this project; however, below are a few sneak-peaks into the figures output.
 
 ![Sneak Peak1](figures/top-predictor-heatmap.png)
 
